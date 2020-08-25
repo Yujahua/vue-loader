@@ -1,6 +1,7 @@
 {
   "name": "vue-loader",
   "version": "16.0.0-beta.5",
+  "description": "Non-official publishment, just for private learning, resource comes from official vue-loader's next branch, release is v16.0.0-beta.5",
   "license": "MIT",
   "author": "Evan You",
   "main": "dist/index.js",
