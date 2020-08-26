@@ -4,6 +4,10 @@
 
 - [Documentation](https://vue-loader.vuejs.org)
 
+## Attention
+
+  Non-official publishment, just for private learning, resource comes from official vue-loader's next branch, release is v16.0.0-beta.5.
+
 ## What is Vue Loader?
 
 `vue-loader` is a loader for [webpack](https://webpack.js.org/) that allows you to author Vue components in a format called [Single-File Components (SFCs)](./docs/spec.md):
@@ -115,9 +119,7 @@ In a nutshell, the combination of webpack and `vue-loader` gives you a modern, f
     // <style scoped lang="scss">
     import 'style-loader!vue-loader/style-post-loader!css-loader!sass-loader!vue-loader!source.vue?vue&type=style&index=1&scoped&lang=scss'
     ```
-  ## Maybe issues
 
-  1. As running `npm install --production` to install production dependency modules, the `./src` files throw none import syntax. But if I use `@vue/cli` 4.5+ to create a vue app, after installed, it work well without errors.
+## Maybe Issues
 
-  ## Attention
-  Non-official publishment, just for private learning, resource comes from official vue-loader's next branch, release is v16.0.0-beta.5.
+  1. As running `npm install --production` to install production dependency modules, the `./src` files throw none import syntax. But if I use `@vue/cli` 4.5+ to create a vue app, after installed, it works well without errors.

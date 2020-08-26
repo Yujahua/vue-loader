@@ -1,6 +1,6 @@
 {
-  "name": "vue-loader",
-  "version": "16.0.0-beta.5",
+  "name": "vue-loader-v16",
+  "version": "16.0.0-beta.5.3",
   "description": "Non-official publishment, just for private learning, resource comes from official vue-loader's next branch, release is v16.0.0-beta.5",
   "license": "MIT",
   "author": "Evan You",
@@ -19,6 +19,14 @@
     "lint": "prettier --write --parser typescript \"{src,test}/**/*.ts\"",
     "prepublishOnly": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Yujahua/vue-loader-v16.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yujahua/vue-loader-v16/issues"
+  },
+  "homepage": "https://github.com/Yujahua/vue-loader-v16/tree/next#readme",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
